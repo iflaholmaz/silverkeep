@@ -1,0 +1,7 @@
+{
+  "name": "albiondesk",
+  "productName": "Silverkeep",
+  "version": "4.0.0",
+  "main": "main.cjs",
+  "description": "Albion Online için piyasa, üretim ve yerel takip uygulaması"
+}

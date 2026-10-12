@@ -1,0 +1,9 @@
+node_modules/
+build/
+dist/
+src/data/*.json
+records*.json
+market-cache.json
+backups/
+*.log
+.DS_Store

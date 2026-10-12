@@ -1,0 +1,16 @@
+{
+  "name": "silverkeep-desktop",
+  "version": "4.0.0",
+  "private": true,
+  "description": "Windows economy companion for Albion Online · xvv",
+  "main": "src/main.cjs",
+  "scripts": {
+    "start": "node scripts/data.cjs --if-missing && electron src",
+    "data": "node scripts/data.cjs",
+    "test": "node scripts/data.cjs --if-missing && node tests/economy.test.cjs && node tests/business.test.cjs",
+    "build": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/build.ps1"
+  },
+  "devDependencies": {
+    "electron": "44.7.0"
+  }
+}
